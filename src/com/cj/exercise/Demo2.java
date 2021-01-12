@@ -12,11 +12,11 @@ public class Demo2 {
     static Integer[] nums2 = new Integer[]{2, 3, 15, 20, 6};
 
     public static void main(String[] args) {
-        findMedianSortedArrays(nums1, nums2);
+        calc(nums1, nums2);
     }
 
 
-    static <T> void findMedianSortedArrays(T[] nums1, T[] nums2) {
+    static <T> void calc(T[] nums1, T[] nums2) {
         T[] concatArr = concat(nums1, nums2);
         Arrays.sort(concatArr);
         System.out.println("数组为：" + Arrays.asList(concatArr).toString());
