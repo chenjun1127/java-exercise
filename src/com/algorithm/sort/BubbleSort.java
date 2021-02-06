@@ -19,7 +19,7 @@ public class BubbleSort {
      */
     private static void bubbleSort(int[] arr) {
         // 临时变量，交换的时候用
-        int temp = 0;
+        int temp;
         // 是否进行过交换
         boolean flag = false;
         for (int i = 0; i < arr.length - 1; i++) {
