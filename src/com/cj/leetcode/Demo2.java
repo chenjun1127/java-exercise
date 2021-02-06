@@ -1,4 +1,4 @@
-package com.cj.exercise;
+package com.cj.leetcode;
 
 import java.util.Arrays;
 
