@@ -24,7 +24,7 @@ public class BubbleSort {
         boolean flag = false;
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - 1 - i; j++) {
-                // 前面的数比后面的数，则交换
+                // 前面的数比后面的数大，则交换
                 if (arr[j] > arr[j + 1]) {
                     flag = true;
                     temp = arr[j];
